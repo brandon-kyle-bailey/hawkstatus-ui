@@ -15,7 +15,7 @@ export const authOptions: AuthOptions = {
       },
       async authorize(credentials, req) {
         console.log(credentials);
-        const user = { id: "1", name: "J Smith", email: "jsmith@example.com" };
+        const user = { id: "1", email: credentials?.email };
 
         if (user) {
           return user;

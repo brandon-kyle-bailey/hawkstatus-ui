@@ -12,6 +12,7 @@ export default function SigninPage() {
     signIn("credentials", {
       email,
       password,
+      callbackUrl: "/dashboard",
     });
     setEmail("");
     setPassword("");
