@@ -71,7 +71,7 @@ export default function SigninPage() {
             </a>
           </div>
           <div className="text-lg mt-6 w-full flex justify-between items-center">
-            <a className="text-base hover:text-pink-500" href="/auth/sign-up">
+            <a className="text-base hover:text-pink-500" href="/auth/signup">
               <p>Dont have an account? Click here</p>
             </a>
           </div>
